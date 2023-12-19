@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.main-header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    height: 75px;
+    border-bottom: 1px solid whitesmoke;
+    box-shadow: 2px 2px 6px blanchedalmond;
+}
+#header{
+  
+}
+.logo{
+    margin-left: 50px;
+    text-decoration: none;
+}  
+.hd{
+    padding-top: 19px;
+    display: inline-block;
+}
+.header-items{
+    display: flex;
+    position: relative;
+    list-style: none;
+    left: 39px;
+    top: 9px;
+}
+.header-items:hover{
+    color: lightcoral;
+}
+#head-items{
+    display: flex;
+    position: relative;
+    bottom: 68px;
+    text-decoration: none;
+    list-style: none;
+    padding: 29px;
+    left: 167px;
+    font-weight: bold;
+}
+.head-button{
+    background-color: aqua;
+    position: relative;
+    display: inline-block;
+    bottom: 115px;
+    left: 1334px;
+    height: 28px;
+    width: 132px;
+    text-align: center;
+    border-radius: 292px;
+}
+.button-text{
+    text-decoration: none;
+}
+.gt-button{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    right: 17px;
+    text-decoration: none;
+    background-color: aqua;
+    font-size: 20px;
+    height: 32px;
+    width: 141px;
+    align-items: center;
+    border-radius: 36px
+}
+.head{
+    padding-top: 25px;
+    padding-bottom: 12px;
+    font-size: x-large;
+}
+.head-animation{
+    
+   
+}
+.home-img{
+    width: 40%;
+    position: relative;
+    left: 6%;
+    padding-top: 101px;
+}
+.head-animation{
+    text-align: center;
+}
+.about{
+    text-align: center;
+    height: 150px;
+    font-size: x-large;
+    padding-bottom: 13px;
+    padding-top: 5px;
+}
+.about-img{
+    width: 610px;
+    height: 550px;
+}
+.sections{
+    display: flex;
+    padding-left: 245px;
+    padding-top: 41px;
+}
+.sec{
+    margin: 9px;
+    margin-top: -9px;
+    border-radius: 10px;
+    height: 254px;
+    width: 254px;
+}
+.sec:hover{
+    background-color: #3fbbc0;
+    color: white;
+}
+.sec-ico:hover{
+    background-color: #3fbbc0;
+    color: white;
+
+}
+.service1:hover{
+    background-color: #3fbbc0;
+    color: white;
+}
+.service2:hover{
+    background-color: #3fbbc0;
+    color: white;
+}
+.service3:hover{
+    background-color: #3fbbc0;
+    color: white;
+}
+.sec-ico{
+    color: #3fbbc0;
+    font-size: 59px;
+    padding-left: 20px;
+}
+.sec-title{
+    padding-left: 21px;
+
+}
+.sec-description{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.service-item1{
+    padding-left: 143px;
+    padding: 0px 50px;
+}
+
+.service1-img{
+    width: 93%;
+    height: 75%;
+    border-radius: 19px;
+}
+
+.about-sec{
+    display: flex;
+}
+.about-sec1{
+    padding-left: 60px;
+    width: 45%;
+}
+.about-sec2{
+    padding-left: 30px;
+    width: 45%;
+}
+.about-sec-title{
+    font-size: 25px;
+}
+.about-sec-list{
+    line-height: 34px;
+
+}
+.service{
+    text-align: center;
+    font-size: x-large;
+    padding-top: 34px;
+    padding-bottom: 38px;
+}
+
+.service1{
+    height: 146px;
+    width: 386px;
+    background-color: white;
+    box-shadow: 2px 2px 3px blanchedalmond;
+    border-radius: 14px;
+    margin-left: 21px;
+    position: relative;
+    bottom: 61px;
+    text-align: center;
+    font-size: 13px;
+}  
+.sevice1:hover{
+    background-color: #3fbbc0;
+    color: white;
+}  
+.icon1{
+    padding: 6px;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
+    border-radius: 82px;
+    position: relative;
+    left: 163px;
+    bottom: 17px;
+}
+.service2{
+    height: 146px;
+    width: 386px;
+    background-color: white;
+    box-shadow: 2px 2px 3px blanchedalmond;
+    border-radius: 14px;
+    margin-left: 21px;
+    position: relative;
+    bottom: 61px;
+    text-align: center;
+    font-size: 13px;
+}
+.icon2{
+    padding: 6px;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
+    border-radius: 82px;
+    position: relative;
+    left: 163px;
+    bottom: 17px;
+}
+.icon3{
+    padding: 6px;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
+    border-radius: 82px;
+    position: relative;
+    left: 163px;
+    bottom: 17px;
+}    
+.service3{
+    height: 146px;
+    width: 386px;
+    background-color: white;
+    box-shadow: 2px 2px 3px blanchedalmond;
+    border-radius: 14px;
+    margin-left: 21px;
+    position: relative;
+    bottom: 61px;
+    text-align: center;
+    font-size: 13px;
+}
+.service2-img {
+    width: 93%;
+    height: 75%;
+    border-radius: 19px;
+}
+.service3-img {
+    width: 93%;
+    height: 75%;
+    border-radius: 19px;
+}
+.services-box-1{
+    display: flex;  
+}
+.services-box-2{
+    display: flex;  
+}
+.port1{
+    padding-top: 20px;
+    padding-bottom: 58px;
+    text-align: center;
+    font-size: x-large;
+}
+.port2-items{
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        padding-left: 553px;
+        padding-bottom: 17px;
+    
+}
+#port-items{
+    padding-left: 30px;
+    text-decoration: none;
+}
+.portimg1{
+    display: flex;
+    list-style: none;
+}
+.bcimg1{   
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+}
+.bcimg2{
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+}
+.bcimg3{
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+}
+.bcimg4{
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+}
+.bcimg6{
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+}
+.ticon1{
+    padding: 6px;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
+    border-radius: 82px;
+    position: relative;
+    left: 163px;
+    bottom: 17px;
+}    
+.team1{
+    height: 146px;
+    width: 386px;
+    background-color: white;
+    margin-left: 21px;
+    position: relative;
+    bottom: 61px;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 2px 2px 2px blanchedalmond;
+    border-radius: 15px;
+}
+.team1-img {
+        width: 67%;
+        height: 85%;
+        border-radius: 19px;
+}
+.ticon2{
+    padding: 6px;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
+    border-radius: 82px;
+    position: relative;
+    left: 163px;
+    bottom: 17px;
+}    
+.team2{
+    height: 146px;
+    width: 386px;
+    background-color: white;
+    margin-left: 21px;
+    position: relative;
+    bottom: 61px;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 2px 2px 2px blanchedalmond;
+    border-radius: 15px;
+}
+.team2-img {
+        width: 67%;
+        height: 85%;
+        border-radius: 19px;
+}
+.ticon3{
+    padding: 6px;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
+    border-radius: 82px;
+    position: relative;
+    left: 163px;
+    bottom: 17px;
+}    
+.team3{
+    height: 146px;
+    width: 386px;
+    background-color: white;
+    margin-left: 21px;
+    position: relative;
+    bottom: 61px;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 2px 2px 2px blanchedalmond;
+    border-radius: 15px;
+}
+.team3-img {
+    width: 67%;
+    height: 85%;
+    border-radius: 19px;
+}
+.team-box-1{
+    display: flex;
+    padding-left: 56px;
+    padding-right: 11px;
+}
+.team1:hover{
+    background-color: #3fbbc0;
+    color: white;
+}
+.team2:hover{
+    background-color: #3fbbc0;
+    color: white;
+}
+.team3:hover{
+    background-color: #3fbbc0;
+    color: white;
+}
+.cont{
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 45px;
+}
+.team0{
+    text-align: center;
+    font-size: x-large;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+ .copyright{
+    display: flex;
+    background:  #3a4753;
+    color: white;
+    height: 60px;
+    padding: 50px;
+}
+.copyright-info{
+    margin-top: 24px;
+}
+
+.copyright-social-media{
+    margin-left: 600px;
+    margin-top: 24px;
+}
+.copyright-social-media-a{
+    padding: 5px;
+}
+.copyright-social-media-a i{
+    font-size: 28px;
+    color: white;
+    background: #1c7281;
+    border: 2px solid #1c7281;
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+}
+.copyright-info-para::after{
+    content: ' SUGANTHAN.S ';
+    color: #32b0c7;
+    font-family: math;
+    font-size: 20;
+}
